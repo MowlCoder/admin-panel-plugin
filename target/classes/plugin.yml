@@ -1,0 +1,8 @@
+name: AdminPanelPlugin
+version: '1.0-SNAPSHOT'
+main: me.mowlcoder.adminpanelplugin.AdminPanelPlugin
+api-version: 1.19
+
+commands:
+  admin-panel:
+    usage: /admin-panel

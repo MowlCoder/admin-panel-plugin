@@ -1,0 +1,112 @@
+messages:
+  able_use_only_players: "&cКоманду может использовать только игрок"
+  success_reload: "&aДанные успешно обновлены"
+  success_change_page: "&aСтраница успешно сменена"
+  success_set_food: "&aИгроку &6%player_name%&a успешно восстановлена еда"
+  success_set_health: "&aИгроку &6%player_name%&a успешно восстановлено здоровье"
+  success_kick: "&aИгрок &6%player_name%&a успешно выгнан с сервера"
+  success_ban: "&aИгрок &6%player_name%&a успешно забанен"
+  enable_op: "&aИгрок &6%player_name%&a успешно назначен оператором"
+  disable_op: "&aИгрок &6%player_name%&a успешно снять с роли оператора"
+  default_ban_message: "Вы были забанены администратором. Обратитесь в поддержку для обжалования."
+
+navigation:
+  prev_page:
+    material: OAK_SIGN
+    name: "&bПред. страница"
+  next_page:
+    material: OAK_SIGN
+    name: "&bСлед. страница"
+  go_back:
+    material: BARRIER
+    name: "&bНазад"
+  close:
+    material: BARRIER
+    name: "&cЗакрыть"
+    lore:
+      - "&6Нажмите, чтобы закрыть панель"
+  reload:
+    material: BELL
+    name: "&bОбновить данные"
+    lore:
+      - "&6Нажмите, чтобы обновить данные"
+
+admin_panel:
+  title: "&cАдминская панель"
+  storage_action_key: "admin_gui_action_type"
+  size: 45
+  auto_update: true
+  auto_update_delay: 60
+  close_position: 44
+  reload_position: 36
+  slots:
+    tps:
+      position: 10
+      material: COMPASS
+      name: "&bTPS"
+    memory_usage:
+      position: 11
+      material: CHEST
+      name: "&bИспользование памяти"
+    cpu_load:
+      position: 12
+      material: REDSTONE_BLOCK
+      name: "&bПроцессор"
+    player_online:
+      position: 15
+      material: PLAYER_HEAD
+      name: "&bИгроки онлайн"
+    average_ping:
+      position: 16
+      material: REDSTONE_TORCH
+      name: "&bСредний пинг игроков"
+
+players_online:
+  title: "&cИгроки онлайн"
+  storage_action_key: "players_gui_action_type"
+  size: 54
+  auto_update: true
+  auto_update_delay: 60
+  go_back_position: 53
+  next_page_position: 50
+  prev_page_position: 48
+  reload_position: 45
+  players_on_page: 36
+
+player_control_panel:
+  title: "&cУправление игроком"
+  storage_action_key: "players_control_gui_action_type"
+  size: 54
+  auto_update: false
+  player_head_position: 13
+  go_back_position: 53
+  reload_position: 45
+  slots:
+    tp_to_player:
+      position: 28
+      material: COMPASS
+      name: "&bТелепорт к игроку"
+    tp_player_to_admin:
+      position: 29
+      material: RECOVERY_COMPASS
+      name: "&bТелепорт игрока к себе"
+    toggle_op:
+      position: 30
+      material: DIAMOND
+      name: "&bПереключить OP"
+    full_health:
+      position: 31
+      material: POTION
+      name: "&bВосстановить игроку здоровье"
+    full_food:
+      position: 32
+      material: COOKED_BEEF
+      name: "&bВосстановить игроку еду"
+    kick:
+      position: 33
+      material: SNOWBALL
+      name: "&bКикнуть игрока"
+    ban:
+      position: 34
+      material: TNT
+      name: "&bЗабанить игрока"
